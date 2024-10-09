@@ -94,6 +94,11 @@ Run the miner:
 docker compose up
 ```
 
+Realtime logs:
+```
+docker compose logs -f
+```
+
 ## Notes
 - You must have logged into sixgpt.xyz with your wallet before running the miner
 - Make sure the wallet associated with your vana private key has enough $VANA balance on the desired network (at least 0.1)
